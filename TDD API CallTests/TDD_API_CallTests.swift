@@ -5,6 +5,7 @@
 //  Created by user on 27/08/21.
 //
 
+@testable import TDD_API_Call
 import XCTest
 
 class TDD_API_CallTests: XCTestCase {
