@@ -14,6 +14,7 @@
 		CE8681A826D96C1E0035137F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8681A726D96C1E0035137F /* Assets.xcassets */; };
 		CE8681AB26D96C1E0035137F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8681A926D96C1E0035137F /* LaunchScreen.storyboard */; };
 		CE8681B926D96CDD0035137F /* TDD_API_CallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8681B826D96CDD0035137F /* TDD_API_CallTests.swift */; };
+		CE8681C126D97BEB0035137F /* APIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8681C026D97BEB0035137F /* APIRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		CE8681B626D96CDD0035137F /* TDD API CallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD API CallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8681B826D96CDD0035137F /* TDD_API_CallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_API_CallTests.swift; sourceTree = "<group>"; };
 		CE8681BA26D96CDD0035137F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8681C026D97BEB0035137F /* APIRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				CE86819E26D96C1C0035137F /* AppDelegate.swift */,
 				CE8681A026D96C1C0035137F /* SceneDelegate.swift */,
 				CE8681A226D96C1C0035137F /* ViewController.swift */,
+				CE8681C026D97BEB0035137F /* APIRepository.swift */,
 				CE8681A426D96C1C0035137F /* Main.storyboard */,
 				CE8681A726D96C1E0035137F /* Assets.xcassets */,
 				CE8681A926D96C1E0035137F /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8681C126D97BEB0035137F /* APIRepository.swift in Sources */,
 				CE8681A326D96C1C0035137F /* ViewController.swift in Sources */,
 				CE86819F26D96C1C0035137F /* AppDelegate.swift in Sources */,
 				CE8681A126D96C1C0035137F /* SceneDelegate.swift in Sources */,
